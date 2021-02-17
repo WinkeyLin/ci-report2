@@ -4,7 +4,7 @@ language: python
 python:
 - 3.8
 install:
-- git clone https://github.com/WinkeyLin/ci-health-report
+- git clone https://github.com/kirainmoe/auto-daily-health-report healthreport
 - cd healthreport
 - pip install -r requirements.txt
 script:
